@@ -8,7 +8,7 @@ public class Solution
 
     public long[] FindMaxSum(int[] valuesToCompare, int[] valuesToSum, int maxNumberOfValuesToSum)
     {
-        Unit[] sortedUnits = createSortedUnits(valuesToCompare, valuesToSum);
+        Unit[] sortedUnits = CreateSortedUnits(valuesToCompare, valuesToSum);
         PriorityQueue<int, int> minHeap = new PriorityQueue<int, int>();
 
         long currentMaxSum = 0;
@@ -36,7 +36,7 @@ public class Solution
         return maxSum;
     }
 
-    private Unit[] createSortedUnits(int[] valuesToCompare, int[] valuesToSum)
+    private Unit[] CreateSortedUnits(int[] valuesToCompare, int[] valuesToSum)
     {
         Unit[] sortedUnits = new Unit[valuesToCompare.Length];
         for (int i = 0; i < sortedUnits.Length; ++i)
