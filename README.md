@@ -1,2 +1,2 @@
-# Maximize-Subarrays-After-Removing-One-Conflicting-Pair
+# Choose K Elements With Maximum Sum
 Challenge at LeetCode.com. Tags: Sorting, Heap.
